@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stackassignment.HelloController">
+    <children>
+      <Label layoutX="43.0" layoutY="92.0" text="Text" />
+      <TextField fx:id="textStack" layoutX="102.0" layoutY="88.0" prefHeight="26.0" prefWidth="203.0" promptText="Enter Text" />
+      <Button layoutX="96.0" layoutY="165.0" mnemonicParsing="false" onAction="#onPushButtonClick" prefHeight="49.0" prefWidth="87.0" text="Push">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Button>
+      <Button layoutX="202.0" layoutY="164.0" mnemonicParsing="false" onAction="#onPopButtonClick" prefHeight="49.0" prefWidth="87.0" style="-fx-background-color: #ff0000;" text="Pop" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+      <TextArea fx:id="stackShow" layoutX="346.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
